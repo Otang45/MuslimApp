@@ -1,6 +1,7 @@
 # muslim
 
-A new Flutter project.
+Aplikasi pertama saya di Github.
+Jika mau pake silahkan.
 
 ## Getting Started
 
