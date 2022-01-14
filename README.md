@@ -1,7 +1,12 @@
-# muslim
+# Muslim App
 
 Aplikasi pertama saya di Github.
 Jika mau pake silahkan.
+
+# Screenshots
+![Alt text](/screenshots/1.jpg?raw=true "Home")
+![Alt text](/screenshots/2.jpg?raw=true "Murottal")
+![Alt text](/screenshots/3.jpg?raw=true "Settings")
 
 ## Getting Started
 
