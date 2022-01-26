@@ -136,7 +136,7 @@ class ThemeColor {
 
   static Brightness brightness(BuildContext context) {
     final themeChange = Provider.of<DarkThemeProvider>(context);
-    return themeChange.darkTheme ? Brightness.light : Brightness.light;
+    return themeChange.darkTheme ? Brightness.light : Brightness.dark;
   }
 }
 
