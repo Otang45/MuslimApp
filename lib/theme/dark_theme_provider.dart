@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:muslim/main.dart';
 import 'package:provider/provider.dart';
@@ -146,7 +148,6 @@ class ThemeStyles {
         ? ThemeData(
             primaryColor: Colors.black,
             brightness: Brightness.dark,
-            backgroundColor: const Color(0xFF212121),
             dividerColor: Colors.black12,
             fontFamily: 'arial',
             textTheme: const TextTheme(
@@ -169,14 +170,13 @@ class ThemeStyles {
                 fontFamily: "arial",
                 fontSize: 14,
               ),
-            ),
-            colorScheme: ColorScheme.fromSwatch(
+            ), colorScheme: ColorScheme.fromSwatch(
               primarySwatch: Colors.grey,
               brightness: Brightness.light,
             ).copyWith(
               secondary: const Color(0xff896277),
               brightness: Brightness.dark,
-            ),
+            ).copyWith(background: const Color(0xFF212121)),
           )
         : ThemeData(
             primaryColor: const Color(0xffee8f8b),

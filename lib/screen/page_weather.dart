@@ -139,8 +139,7 @@ class _WeatherScreenState extends State<WeatherScreen>
                     padding: const EdgeInsets.all(10.0),
                     child: TextButton(
                       style: TextButton.styleFrom(
-                        primary: ThemeColor.colorText(context),
-                        elevation: 0,
+                        foregroundColor: ThemeColor.colorText(context), elevation: 0,
                       ),
                       child: const Text(
                         'Try Again',
@@ -218,8 +217,7 @@ class _WeatherScreenState extends State<WeatherScreen>
             TextButton(
               child: const Text('Enable!'),
               style: TextButton.styleFrom(
-                primary: ThemeColor.purple,
-                elevation: 1,
+                foregroundColor: ThemeColor.purple, elevation: 1,
               ),
               onPressed: () {
                 openAppSettings();

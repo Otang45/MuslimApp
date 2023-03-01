@@ -1,4 +1,4 @@
-package otang.muslim
+package otang.muslim.flutter
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
